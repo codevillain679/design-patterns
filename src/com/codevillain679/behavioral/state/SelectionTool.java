@@ -1,4 +1,4 @@
-package com.codevillain679.state;
+package com.codevillain679.behavioral.state;
 
 public class SelectionTool implements Tool {
     @Override

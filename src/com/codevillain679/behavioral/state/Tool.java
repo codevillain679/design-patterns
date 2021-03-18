@@ -1,4 +1,4 @@
-package com.codevillain679.state;
+package com.codevillain679.behavioral.state;
 
 public interface Tool {
     void mouseUp();

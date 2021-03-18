@@ -1,4 +1,4 @@
-package com.codevillain679.memento;
+package com.codevillain679.behavioral.memento;
 
 public class EditorState {
     private final String content;

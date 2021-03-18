@@ -1,4 +1,4 @@
-package com.codevillain679.memento;
+package com.codevillain679.behavioral.memento;
 
 import java.util.ArrayList;
 import java.util.List;

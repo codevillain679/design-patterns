@@ -1,7 +1,6 @@
 package com.codevillain679;
 
-import com.codevillain679.memento.MementoPattern;
-import com.codevillain679.state.StatePattern;
+import com.codevillain679.behavioral.state.StatePattern;
 
 public class Main {
 
