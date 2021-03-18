@@ -1,36 +1,21 @@
 package com.codevillain679.memento;
 
 public class Editor {
-    private History history;
     private String content;
 
-    public Editor(){
-        history = new History();
-        content = null;
-    }
-
-    public void write(String content){
+    public void setContent(String content) {
         this.content = content;
-        createState();
     }
 
-    public void undo(){
-        EditorState editorState = history.pop();
-        restore(editorState);
-    }
-
-    @Override
-    public String toString() {
+    public String getContent() {
         return content;
     }
 
-    private void createState(){
-        EditorState editorState = new EditorState();
-        editorState.setContent(content);
-        history.push(editorState);
+    public EditorState createState(){
+        return new EditorState(content);
     }
 
     public void restore(EditorState state){
-        this.content = state.getContent();
+        content = state.getContent();
     }
 }

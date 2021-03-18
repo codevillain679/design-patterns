@@ -1,26 +1,24 @@
 package com.codevillain679.memento;
 
-import java.util.Stack;
+import java.util.ArrayList;
+import java.util.List;
 
 public class History {
-    private Stack<EditorState> states;
+    private List<EditorState> states;
 
     public History(){
-        this.states = new Stack<>();
+        this.states = new ArrayList<>();
     }
 
     public void push(EditorState state){
-        states.push(state);
+        states.add(state);
     }
 
     public EditorState pop(){
-        if(!states.empty()){
-            states.pop(); // remove last element
-            if(!states.empty()){
-                EditorState editorState = states.peek();
-                return editorState;
-            }
-        }
-        return new EditorState(); // return new editorState object
+        var lastIndex = states.size() - 1;
+        var lastState = states.get(lastIndex);
+        states.remove(lastState);
+
+        return lastState;
     }
 }
