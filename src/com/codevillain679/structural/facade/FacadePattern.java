@@ -4,6 +4,14 @@ import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+/**
+ * A Facade Pattern says that just "just provide a unified and simplified interface to a set of interfaces in a subsystem, therefore it hides the complexities of the subsystem from the client".
+ *
+ * In other words, Facade Pattern describes a higher-level interface that makes the sub-system easier to use.
+ *
+ * Practically, every Abstract Factory is a type of Facade.
+ */
+
 public class FacadePattern {
 
     private static int choice;
