@@ -3,6 +3,7 @@ package com.codevillain679;
 import com.codevillain679.behavioral.chainofresponsibility.ChainOfResponsibilityPattern;
 import com.codevillain679.behavioral.memento.MementoPattern;
 import com.codevillain679.behavioral.state.StatePattern;
+import com.codevillain679.structural.adapter.AdapterPattern;
 
 public class Main {
 
@@ -10,6 +11,7 @@ public class Main {
 	// write your code here
 //        new MementoPattern();
 //        new StatePattern();
-        new ChainOfResponsibilityPattern();
+//        new ChainOfResponsibilityPattern();
+        new AdapterPattern();
     }
 }
