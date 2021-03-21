@@ -5,6 +5,7 @@ import com.codevillain679.behavioral.memento.MementoPattern;
 import com.codevillain679.behavioral.state.StatePattern;
 import com.codevillain679.structural.adapter.AdapterPattern;
 import com.codevillain679.structural.facade.FacadePattern;
+import com.codevillain679.structural.flyweight.FlyWeightPattern;
 
 public class Main {
 
@@ -14,6 +15,7 @@ public class Main {
 //        new StatePattern();
 //        new ChainOfResponsibilityPattern();
 //        new AdapterPattern();
-        new FacadePattern();
+//        new FacadePattern();
+        new FlyWeightPattern();
     }
 }
