@@ -11,9 +11,9 @@ public class StrategyPattern {
     Scanner scanner = new Scanner(System.in);
     Context context = new Context();
     CalculateStrategy strategy;
-    int answer;
-    int a;
-    int b;
+    double answer;
+    double a;
+    double b;
     int calculateWay;
 
     public StrategyPattern (){
@@ -33,7 +33,7 @@ public class StrategyPattern {
         }
         strategy = context.CreateCalculateStrategy(calculateWay);
         answer = strategy.Calculate(a,b);
-        System.out.println(answer);
+        System.out.println(a + b + answer);
     }
 
 }

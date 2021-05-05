@@ -2,8 +2,8 @@ package com.codevillain679.behavioral.strategy;
 
 public class Devide implements CalculateStrategy {
     @Override
-    public int Calculate(int a, int b) {
-        int x;
+    public double Calculate(double a, double b) {
+        double x;
         x = a / b;
         return x;
     }
