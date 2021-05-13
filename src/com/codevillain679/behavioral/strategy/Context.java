@@ -6,8 +6,11 @@ public class Context {
         CalculateStrategy result;
         switch (calculateWay){
             case 1: result = new Sum();
+                break;
             case 2: result = new Subtract();
+                break;
             case 3: result = new Multiply();
+                break;
             case 4: result = new Devide();
                 break;
             default: result = new Sum();
