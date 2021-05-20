@@ -3,6 +3,7 @@ package com.codevillain679;
 import com.codevillain679.behavioral.chainofresponsibility.ChainOfResponsibilityPattern;
 import com.codevillain679.behavioral.memento.MementoPattern;
 import com.codevillain679.behavioral.state.StatePattern;
+import com.codevillain679.behavioral.strategy.StrategyPattern;
 import com.codevillain679.creational.builder.BuilderPattern;
 import com.codevillain679.structural.adapter.AdapterPattern;
 import com.codevillain679.structural.facade.FacadePattern;
@@ -18,6 +19,7 @@ public class Main {
 //        new AdapterPattern();
 //        new FacadePattern();
 //        new FlyWeightPattern();
-        new BuilderPattern();
+//        new BuilderPattern();
+        new StrategyPattern();
     }
 }
